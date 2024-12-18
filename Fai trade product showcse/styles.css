@@ -1,0 +1,261 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #4caf4f95;
+    color: rgba(241, 242, 243, 0.505);
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation list items styling */
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Navigation links styling */
+nav ul li a {
+    color: rgba(12, 80, 103, 0.852);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: background-color 0.3s;
+}
+
+/* Navigation links hover effect */
+nav a:hover {
+    font-size: 25.6px;
+    color: black;
+}
+
+/* Main content area styling */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Headings styling */
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Product 1 styling */
+.product1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #632f2f79;
+}
+
+/* Product image styling */
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Product headings styling */
+.product h3 {
+    margin-top: 0;
+}
+
+/* Product paragraph styling */
+.product p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Product strong text styling */
+.product strong {
+    color: #e67e22;
+    font-size: 1.2em;
+}
+
+/* Product 2 styling */
+.product2 {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #632f2f79;
+    border-radius: 10px;
+}
+
+/* Product 3 styling */
+.product3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #632f2f79;
+    border-radius: 10px;
+}
+
+/* Producer styling */
+.producer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Producer image styling */
+.producer img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Producer headings styling */
+.producer h3 {
+    margin-top: 0;
+}
+
+/* Producer paragraph styling */
+.producer p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Contact form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Unordered list items styling */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Unordered list links styling */
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Unordered list links hover effect */
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4caf4f94;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
